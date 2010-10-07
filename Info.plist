@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>OpenInTextmate</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.Quicksilver.OpenInTextmate</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>OpenInTextmate</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleVersion</key>
+	<string>38</string>
+	<key>NSPrincipalClass</key>
+	<string>OpenInTextmate</string>
+	<key>QSActions</key>
+	<dict>
+		<key>OpenInTextmateAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>OpenInTextmateAction</string>
+			<key>actionSelector</key>
+			<string>performActionOnObject:</string>
+			<key>directTypes</key>
+			<array>
+				<string>NSFilenamesPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>com.macromates.textmate</string>
+			<key>name</key>
+			<string>Open As Textmate Project</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>G. Tyler Suggs</string>
+		<key>categories</key>
+		<array/>
+		<key>description</key>
+		<string>Open current selection as Textmate Project</string>
+		<key>icon</key>
+		<string>com.macromates.textmate</string>
+		<key>qsversion</key>
+		<string>29CC</string>
+		<key>relatedBundles </key>
+		<array/>
+	</dict>
+	<key>QSPresetAdditions</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>QSPresetOpenInTextmate</string>
+			<key>name</key>
+			<string>OpenInTextmate</string>
+			<key>source</key>
+			<string>OpenInTextmateSource</string>
+		</dict>
+	</array>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSActionProviders</key>
+		<dict>
+			<key>OpenInTextmateAction</key>
+			<string>OpenInTextmateAction</string>
+		</dict>
+		<key>QSObjectHandlers</key>
+		<dict>
+			<key>OpenInTextmateType</key>
+			<string>OpenInTextmateSource</string>
+		</dict>
+		<key>QSObjectSources</key>
+		<dict>
+			<key>OpenInTextmateSource</key>
+			<string>OpenInTextmateSource</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
